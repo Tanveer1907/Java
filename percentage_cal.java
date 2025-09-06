@@ -18,6 +18,7 @@ public class percentage_cal {
         double average = total/5;
 
         System.out.println(average);
+        sc.close();;
     }
 
 }

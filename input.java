@@ -11,6 +11,7 @@ public class input {
 //        System.out.println(sum);
         String str = sc.nextLine();
         System.out.println(str);
+        sc.close();
 
     }
 }

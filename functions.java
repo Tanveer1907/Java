@@ -71,6 +71,7 @@ public class functions {
 //          factorial(n);
 //          prime(n);
           fibonacci(n);
+          sc.close();
 
     }
 }

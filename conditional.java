@@ -14,6 +14,7 @@ public class conditional {
                System.out.println("YOOO");
 
        }
+       sc.close();
 
 
     }
