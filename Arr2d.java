@@ -70,7 +70,31 @@ public class Arr2d {
 //        }
 
         //sum of each element in a row
-        int[][] arr =
+//        int[][] matrix ={
+//                {1,2,3},
+//                {4,5,6},
+//                {7,8,9}
+//        };
+//       for(int i = 0;i<matrix.length;i++){
+//       int row_sum = 0;
+//       for(int j =0;j<matrix[0].length;j++){
+//           row_sum+=matrix[i][j];
+//       }
+//       System.out.println("Sum: " +row_sum);
+//       }
 
+        //column sum
+        int[][] matrix ={
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}
+        };
+for(int j=0;j<matrix[0].length;j++){
+    int col_sum = 0;
+    for(int i = 0;i<matrix.length;i++){
+        col_sum+=matrix[i][j];
+    }
+    System.out.println("Sum: "+col_sum );
+}
     }
 }

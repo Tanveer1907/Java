@@ -61,10 +61,8 @@ public class arrays2d {
                 System.out.print(numbers[row][colstart]+" ");
             }
             colstart++;
-            System.out.println();
+        
         }
         sc.close();
-    }
-
-    
+    }    
 }
