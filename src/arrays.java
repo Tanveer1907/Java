@@ -59,5 +59,6 @@ public class arrays {
         else{
             System.out.println("Not Sorted");
         }
+        sc.close();
     }
 }

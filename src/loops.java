@@ -50,7 +50,6 @@ public class loops {
 //        }
 //        while(i<15);
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
 //        int sum = 0;
 //        for(int i = 0;i<=num;i++){
 //            sum+=i;

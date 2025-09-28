@@ -9,7 +9,8 @@ public class Main {
         int age = 19;
         double salary = 1000000.00;
         System.out.print(name);
-        System.out.println();
+        System.out.println(age);
+        System.out.println("Salary: " + salary);
 
     }
 }
