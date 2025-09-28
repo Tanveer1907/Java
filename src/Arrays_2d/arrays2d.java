@@ -1,3 +1,5 @@
+package Arrays_2d;
+
 import java.util.*;
 public class arrays2d {
     public static void main(String[] args){
