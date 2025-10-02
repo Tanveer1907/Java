@@ -1,3 +1,5 @@
+package Sorting_Searching_both;
+
 import java.util.Scanner;
 
 public class sorting_1 {

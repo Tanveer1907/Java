@@ -1,3 +1,5 @@
+package Array_Practice;
+
 import java.util.Scanner;
 public class arrays {
     public static void main(String[] args){

@@ -1,3 +1,5 @@
+package Arrays_2d;
+
 public class diagonal_matrix {
     public static void main(String[] args){
         int[][] matrix ={

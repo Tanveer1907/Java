@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Array_Practice;
 
 public class array1 {
     public static void main(String[] args){
