@@ -81,26 +81,26 @@ public class patterns2 {
 
 
         //pascal triangle
-//        int rows = 5;
-//        for(int i = 0;i<rows;i++){
-//            int number =1;
-//            for(int j = 0;j<rows-i;j++){
-//                System.out.print(" ");
-//            }
-//            for(int j = 0;j<=i;j++){
-//                System.out.print(number +" ");
-//                number= number *(i-j)/(j+1);
-//            }
-//            System.out.println();
-//        }
-
-        //12345 pattern in 4 lines
-        for(int i = 1;i<5;i++){
-            for(int j = 1;j<=5;j++){
-                System.out.print(j+" ");
+        int rows = 5;
+        for(int i = 0;i<rows;i++){
+            int number =1;
+            for(int j = 0;j<rows-i;j++){
+                System.out.print(" ");
+            }
+            for(int j = 0;j<=i;j++){
+                System.out.print(number +" ");
+                number= number *(i-j)/(j+1);
             }
             System.out.println();
         }
+
+        //12345 pattern in 4 lines
+//        for(int i = 1;i<5;i++){
+//            for(int j = 1;j<=5;j++){
+//                System.out.print(j+" ");
+//            }
+//            System.out.println();
+//        }
     }
 }
 
